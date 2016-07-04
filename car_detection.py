@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import cv2
+import sys
 
-classifier_path = 'vehicle_classifier.xml'
+classifier_path = 'car_classifier.xml'
 video_path = sys.argv[1]
 
 car_cascade = cv2.CascadeClassifier(classifier_path)
